@@ -1,0 +1,15 @@
+{
+    "name": "prinsfrank/phpunit-laravel-leash",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PrinsFrank\\PHPUnitLaravelLeash\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "phpunit/phpunit": "^9.5",
+        "prinsfrank/laravel-leash": "^0.1.1"
+    }
+}
