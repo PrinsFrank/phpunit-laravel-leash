@@ -11,7 +11,7 @@ class Plugin implements BeforeTestHook, BeforeFirstTestHook
 {
     private string $enableForTestPattern;
 
-    public function __construct(string $enableForTestPattern = '/\\\\Unit\\\\/')
+    public function __construct(string $enableForTestPattern = '/\\Unit\\/')
     {
         $this->enableForTestPattern = $enableForTestPattern;
     }
