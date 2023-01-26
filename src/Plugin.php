@@ -18,7 +18,7 @@ class Plugin implements BeforeTestHook, BeforeFirstTestHook
 
     public function executeBeforeFirstTest(): void
     {
-        LaravelLeash::bootstrap();
+        LaravelLeash::bootstrap(new FailTestOnLeashedContainer());
     }
 
     public function executeBeforeTest(string $test): void
