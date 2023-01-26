@@ -2,6 +2,7 @@
     "name": "prinsfrank/phpunit-laravel-leash",
     "type": "library",
     "license": "MIT",
+    "keywords": ["phpunit", "laravel", "php", "package", "test", "unit"],
     "autoload": {
         "psr-4": {
             "PrinsFrank\\PHPUnitLaravelLeash\\": "src/"
